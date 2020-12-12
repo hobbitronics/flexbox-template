@@ -1,0 +1,140 @@
+body {
+  background-color: rgb(34, 34, 34);
+  font-size: larger;
+  font-family: 'Crimson Text', serif;
+}
+
+nav {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border: 1px solid rgb(34, 34, 34);
+  width: 100%;
+  background-color: rgb(254, 254, 254);
+}
+
+.nav {
+  font-size: 1.2em;
+  color: black;
+  text-decoration: none;
+  padding: 1em;
+  width: 100%;
+  text-align: center;
+  border: 1px solid black;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.18);
+  transition: 220ms all ease-in-out;
+}
+
+.btn {
+  font-size: 1.2em;
+  color: black;
+  text-decoration: none;
+  padding: .5em;
+  border: 1px solid black;
+  transition: 220ms all ease-in-out;
+  border-radius: 6px;
+  text-align: center;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.18);
+
+}
+
+.nav:hover, .nav:focus, .btn:hover, .btn:focus {
+  background-color: lightgrey;
+}
+
+.banner {
+  position: relative;
+  right: 20px;
+  background-image: url("./pics/backgroundblue.jpg");
+  display: flex;
+  justify-content: center;
+  color: black;
+  width: 100%;
+  padding: 15px 20px;
+  margin: 5px 20px;
+}
+
+.content {
+  border: 1px solid rgb(34, 34, 34);
+  min-width: 250px;
+  max-width: 90%;
+  height: 600px;
+  margin: 4em auto;
+  padding: 0;
+  background-image: url("./pics/tree.jpg");
+  background-position: center;
+  background-size: 100%;
+}
+
+.quote{
+  margin: 30% 0;
+  font-size: 1.3rem;
+  background-color: black;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  width: auto;
+}
+
+figure {
+  max-width: 50%;
+  flex-basis: 40%;
+  flex-grow: 1;
+}
+
+#projectsHeading {
+  padding: 20px 0;
+  background-color: white;
+  margin: 0 auto;
+  text-align: center;
+  max-width: 90%;
+}
+
+.container {
+  max-width: 90%;
+  min-height: 400px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  align-content: space-between;
+  flex-wrap: wrap;
+  background-color: white;
+  flex-direction: row;
+}
+
+.item {
+  margin: 20px;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: inherit;
+}
+
+.item p {
+  margin: 4px;
+  text-align: center;
+}
+
+.item h3 {
+  margin: 1em 0;
+  text-align: center;
+}
+
+.item meter {
+  width: 75%;
+  margin: 0 10px;
+}
+
+img {
+  max-width: 100%;
+}
+
+footer {
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
