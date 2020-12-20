@@ -1,3 +1,7 @@
+* {
+  scroll-behavior: smooth;
+}
+
 body {
   background: rgb(0,0,0);
   background: -moz-linear-gradient(172deg, rgba(0,0,0,1) 32%, rgba(27,82,126,1) 92%, rgba(76,197,226,1) 100%);
